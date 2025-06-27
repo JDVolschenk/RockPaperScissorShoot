@@ -1,4 +1,6 @@
 
+/*--Computer Logic--*/
+
 
 function theComputerChoice () {
                    const computerChoice = Math.floor(Math.random() * 3);
@@ -14,3 +16,13 @@ function theComputerChoice () {
 }
 
 theComputerChoice();
+
+/*--Human Logic--*/
+
+function theUserChoice () {
+    const userChoice = prompt("ROCK, PAPER OR SCISSOR?");
+}
+
+theUserChoice();
+theUserChoice();
+
